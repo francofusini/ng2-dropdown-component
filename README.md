@@ -1,6 +1,4 @@
-# ng2-dropdown-component
-
-# Angular2 - Simple Dropdown Component APP
+# ng2-dropdown-component - An Angular2 Simple Dropdown Component APP
 
 ## Description  
 This is an Angular2 component implementing a simple dropdown multiselect component with integrated search and keyboard management.
