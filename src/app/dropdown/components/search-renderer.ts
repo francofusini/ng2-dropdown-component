@@ -1,4 +1,4 @@
-import {Component, Output, EventEmitter} from "angular2/core";
+import {Component, Input, Output, EventEmitter} from "angular2/core";
 
 @Component({
   selector: 'search-renderer',
@@ -9,11 +9,13 @@ import {Component, Output, EventEmitter} from "angular2/core";
       (input)="update.emit(input.value)"
       (click)="active.emit(true)"
       (blur)="active.emit(false)"
-      (keydown)="keyevent.emit({ $event: $event, input: input })"
-      >
+      (keyup)="keyevent.emit($event)"
+      (keydown)="keyevent.emit($event)"
+      value={{value}}>
     </li>`
 })
 export class SearchRenderer {
+  @Input() value;
   @Output() update = new EventEmitter();
   @Output() active = new EventEmitter();
   @Output() keyevent = new EventEmitter();
