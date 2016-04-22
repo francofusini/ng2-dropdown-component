@@ -1,0 +1,14 @@
+﻿li.choice {
+  list-style: none;
+  padding: 1px 3px 1px 3px;
+  margin: 3px 3px 3px 0;
+  border: 1px solid;
+  border-radius: 3px;
+  cursor: default;
+  background-color: #ECEFF1; }
+  li.choice a.deselect {
+    opacity: 0.4; }
+    li.choice a.deselect:hover {
+      cursor: pointer;
+      opacity: 1; }
+

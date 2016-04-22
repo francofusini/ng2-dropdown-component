@@ -1,0 +1,30 @@
+﻿[
+  {
+    "outputFile": "src/test/dropdown/components/dropdown-list.css",
+    "inputFile": "src/test/dropdown/components/dropdown-list.less"
+  },
+  {
+    "outputFile": "src/test/dropdown/components/dropdown-list.css",
+    "inputFile": "src/test/dropdown/components/dropdown-list.scss"
+  },
+  {
+    "outputFile": "src/test/dropdown/components/option-renderer.css",
+    "inputFile": "src/test/dropdown/components/option-renderer.scss"
+  },
+  {
+    "outputFile": "src/app/dropdown/components/choice-renderer.css",
+    "inputFile": "src/app/dropdown/components/choice-renderer.scss"
+  },
+  {
+    "outputFile": "src/app/dropdown/components/search-renderer.css",
+    "inputFile": "src/app/dropdown/components/search-renderer.scss"
+  },
+  {
+    "outputFile": "src/app/dropdown/components/option-renderer.css",
+    "inputFile": "src/app/dropdown/components/option-renderer.scss"
+  },
+  {
+    "outputFile": "src/app/dropdown/components/dropdown-list.css",
+    "inputFile": "src/app/dropdown/components/dropdown-list.scss"
+  }
+]

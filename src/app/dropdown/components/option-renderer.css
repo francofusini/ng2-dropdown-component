@@ -1,0 +1,11 @@
+﻿li {
+  list-style: none;
+  padding: 3px; }
+  li.active-result:hover, li.active-result.cursor {
+    cursor: pointer;
+    background-color: gray;
+    color: white; }
+  li.result-selected {
+    opacity: 0.4;
+    cursor: default; }
+

@@ -1,0 +1,41 @@
+﻿/* Component */
+div.container {
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
+  border: 1px solid;
+
+  /* Choices and DropDown */
+  ul {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  /* Choices */
+  ul.choices {
+    position: relative;
+    width: 100%;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    padding: 0 3px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* DropDown */
+  div.drop {
+
+    ul.results {
+      border-top: 1px solid;
+    }
+  }
+}

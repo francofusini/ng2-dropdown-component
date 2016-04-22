@@ -1,0 +1,17 @@
+﻿li {
+  list-style: none;
+  padding: 3px;
+          
+  &.active-result {
+    &:hover, &.cursor {
+      cursor: pointer;
+      background-color: gray;
+      color: white;
+    }
+  }
+
+  &.result-selected {
+    opacity: 0.4;
+    cursor: default;
+  }
+}

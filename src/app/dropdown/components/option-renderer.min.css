@@ -1,0 +1,1 @@
+﻿li{list-style:none;padding:3px;}li.active-result:hover,li.active-result.cursor{cursor:pointer;background-color:#808080;color:#fff;}li.result-selected{opacity:.4;cursor:default;}
